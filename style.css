@@ -1,0 +1,251 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*Navigation part design */
+.nav-bar {
+  width: 100%;
+}
+
+.nav-bar > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.nav-bar > ul > li > a {
+  padding: 14px 15px;
+  text-decoration: none;
+  color: black;
+  text-align: right;
+  display: block;
+}
+li {
+  float: right;
+}
+/*header part design */
+#name-h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.name-color {
+  color: tomato;
+  font-size: 45px;
+}
+
+.half-area {
+  width: 30%;
+  float: left;
+  padding: 100px;
+  margin: 10px 80px;
+}
+
+.img-area img {
+  width: 350px;
+  margin-top: 40px;
+  margin-right: 110px;
+}
+
+.button-hireme {
+  margin-top: 30px;
+  text-decoration: none;
+  border: 1px solid orange;
+  color: white;
+  border-radius: 5px;
+  padding: 15px 60px;
+  background-image: linear-gradient(45deg, salmon, tomato);
+  background-color: salmon;
+}
+
+/*Biography Part Design */
+.biography-part {
+  height: 550px;
+  background-repeat: no-repeat;
+}
+.img-half-area img {
+  width: 400px;
+  margin-top: 40px;
+  margin-left: 140px;
+}
+.bio-half-area {
+  width: 37%;
+  float: right;
+  margin-top: 180px;
+  margin-right: 60px;
+}
+
+.button-cv {
+  margin-top: 30px;
+  text-decoration: none;
+  border: 1px solid orange;
+  color: white;
+  border-radius: 5px;
+  padding: 15px 60px;
+  background-image: linear-gradient(45deg, salmon, tomato);
+  background-color: salmon;
+}
+
+.name-bio {
+  font-size: 40px;
+  margin-bottom: 5;
+}
+#about-me {
+  margin-bottom: 13px;
+}
+/*My lastest Work part Design*/
+h2 {
+  text-align: center;
+  font-size: 35px;
+}
+#lastest-work-header {
+  color: salmon;
+  font-weight: 600;
+  margin-top: 90px;
+}
+.lastest-work {
+  height: 550px;
+  width: 97%;
+  margin-top: 100px;
+  background-color: rgb(253, 250, 253);
+  font-weight: 600;
+}
+div.card {
+  width: 350px;
+  height: 430px;
+  box-shadow: 10px 10px 20px lightgray;
+  text-align: center;
+  margin-left: 80px;
+  border-radius: 20px;
+  float: left;
+}
+.container-text h3 {
+  font-size: 20px;
+}
+.container-text p {
+  color: gray;
+}
+
+.onethird-area-img1 img {
+  width: 280px;
+  height: 280px;
+  background-repeat: no-repeat;
+  float: left;
+  margin: 40px 20px 25px;
+}
+.onethird-area-img2 img {
+  width: 280px;
+  height: 280px;
+  background-repeat: no-repeat;
+  float: left;
+  margin: 40px 20px 25px;
+}
+
+.onethird-area-img3 img {
+  width: 280px;
+  height: 280px;
+  background-repeat: no-repeat;
+  margin: 40px 20px 2px;
+}
+
+.work-inquiry {
+  width: 60%;
+  background-image: url(../images/inquiry.png);
+  background-repeat: no-repeat;
+  height: 200px;
+  margin-left: 300px;
+  background-size: cover;
+  margin-top: 140px;
+}
+.main-container {
+  display: flex;
+}
+.main-container h1 {
+  margin-top: 100px;
+  text-transform: uppercase;
+  margin-left: 100px;
+  color: #fff;
+}
+
+.main-container a {
+  margin-top: 70px;
+  margin-left: 340px;
+  text-decoration: none;
+  border: 1px solid orange;
+  color: white;
+  border-radius: 5px;
+  padding: 26px;
+  background-image: linear-gradient(45deg, salmon, tomato);
+  background-color: salmon;
+}
+/*Client part & footer design*/
+
+.client-part {
+  margin-top: 100px;
+  height: 500px;
+}
+.client-area {
+  text-align: center;
+}
+.client-area h1 {
+  font-size: 30px;
+}
+
+.client-area h4 {
+  margin-bottom: 5px;
+}
+.client-area span {
+  color: lightgray;
+  opacity: 1;
+  margin-top: 10px;
+}
+.client-area p {
+  font-size: 20px;
+  margin-top: 40px;
+}
+.email {
+  text-align: center;
+  border: 1px solid #ff1493;
+  width: 800px;
+  height: 160px;
+  background-color: #ff1493;
+  color: white;
+  margin-left: 300px;
+  margin-top: 30px;
+}
+.email p {
+  font-size: 25px;
+}
+
+#footer-text {
+  color: grey;
+  font-size: 25px;
+}
+
+.footer h2 {
+  color: #333;
+  margin-bottom: 1;
+}
+
+.img-center {
+  text-align: center;
+}
+.img-center img {
+  width: 40px;
+  padding: 10px;
+}
+.footer {
+  margin-top: -120px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 18px;
+}
